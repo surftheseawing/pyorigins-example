@@ -1,0 +1,3 @@
+[submodule "pyorigins"]
+	path = pyorigins
+	url = https://github.com/surftheseawing/pyorigins
