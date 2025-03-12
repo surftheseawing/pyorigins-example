@@ -36,14 +36,15 @@ def build():
   )
 
   origin = Origin(
-    setup.namespace,
-    "",
-    "",
+    "Example",
+    "You are an example.",
   ).with_order(0).with_impact(2).with_icon(
-    ""
+    "minecraft:stick"
   ).add_powers([
     credits,
-  ])
+  ]).with_namespace(
+    setup.namespace
+  )
 
   origin_layer = OriginLayer(
     [
